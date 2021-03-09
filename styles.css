@@ -1,0 +1,51 @@
+body {
+    background: url('assets/bbq.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+}
+
+#principal {
+    margin: auto;
+    max-width: 100%;
+    height: 100%;
+}
+
+#field {
+    width: 300px;
+    text-align: center;
+    position: absolute;
+    background-color: rgba(201, 217, 230, 0.308);
+    border: 1px solid rgba(44, 44, 46, 0.425);
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input,
+button {
+    margin: auto;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+#result {
+    margin-bottom: 8px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    color: rgb(228, 217, 217);
+}
